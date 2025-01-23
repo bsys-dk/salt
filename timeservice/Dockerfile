@@ -2,7 +2,7 @@
 FROM alpine
 LABEL org="BSYS" \
       maintainer="Brian Westy" \
-      version="1.0"
+      version="1.0.1"
 ENV version 1
 RUN mkdir app && apk add --no-cache bash
 WORKDIR /app
