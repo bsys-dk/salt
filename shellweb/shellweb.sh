@@ -50,8 +50,6 @@ while true ;
      echo "S $i"
    done)
    
-   <p>version $(SLIPS)</p>
- 
    <h2>Time: `get_external_time`</h2>
    <h2>Date: `get_external_date`</h2>
    <h3>Number: `get_external_number`</h2>
