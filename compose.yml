@@ -1,0 +1,17 @@
+services: 
+    shellweb:
+        build: shellweb
+        ports: 
+          - "8888:8080"
+        environment: 
+            - version=1.040
+            - WEB_PORT=8080
+            - TIME_SERVICE=timeservice
+            - TIME_SERVICE_PORT=8282
+        volumes:
+          - ./shellweb:/app 
+    timeservice:
+        build: timeservice
+        ports:
+            - "8282:8080"
+    
