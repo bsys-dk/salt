@@ -19,7 +19,8 @@ get_time() {
 export -f get_time
 
 get_number() {
-  echo `wget -qO- $numberservice:$numberservice_port`
+  echo "Not implemented yet"
+  #echo `wget -qO- $numberservice:$numberservice_port`
 }
 export -f get_number
 
@@ -37,5 +38,5 @@ while true ;
   \"time\":\"`get_time`\",
   \"number\":\"`get_number`\"}
 "';
-  echo 'Returned time, date and random number';
+  echo 'Returned time, date and soon also a random number';
 done
