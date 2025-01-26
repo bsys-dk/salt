@@ -1,19 +1,20 @@
 # Salt
 
-Ultra Simple Microservices in Docker and Kubernetes 
+---
 
-![](images/salt.jpg)
+<img height="300" src="images/salt.jpg" width="300"/>
 
+Ultra Simple Microservices in Docker and Kubernetes
 ## The project
 
 As nano as possible
 - Using super lite Linux distro images Apress
 - Webservice by NC
-- Scripting by bashshell script
+- Scripting by shell script
 
+The image size is below 1MB and the memory consumtion is minimal  
 
 ## Structure
-
 
 ```shell
 declare -i counter=3
@@ -57,7 +58,6 @@ How to run a nano container image in docker
 docker run shellweb
 docker run timeservice
 ```
-
 
 
 ## How to run
