@@ -45,7 +45,7 @@ while true ;
    <h4>Dato: $(date)</h4>
    <h4>Name: $(hostname)</h4>
    
-   $(for i in 1 2 3 4 5
+   $(for i in 1 2 3 4 5 6 7
    do
      echo "S $i"
    done)
